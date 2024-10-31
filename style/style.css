@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch+Pop&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", serif;
+
+}
+
+body {
+    background: #191919;
+}
+
+#hero-section {
+    color: #fff;
+}
+
+.img-1 {
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+}
+
+.app {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    border: solid 2px #fff;
+    animation: pound 2s infinite;
+}
+
+.icon-1 {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.app:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+    border: solid 2px rgb(0, 217, 255);
+}
+
+ion-icon:hover {
+    transition: 0.7s;
+    color: rgb(0, 217, 255);
+    transform: rotate(20deg);
+}
+
+
+
+@keyframes pound {
+    0% {
+        border: solid 2px #FFF;
+    }
+
+    50% {
+        border: solid 2px #2a2b2b;
+    }
+}
+
+.text {
+    font-size: 36px;
+    font-weight: 700;
+    width: 400px;
+    line-height: 40px;
+}
+
+.text-1 {
+    font-size: 18px;
+    color: #00d9ff;
+    margin-top: 20px;
+}
+
+.tops {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.k-container {
+    width: 725px;
+    margin: 50px;
+}
+
+.container {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.full {
+    height: 1.5px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: rgb(0, 217, 255);
+}
+
+.hero-items {
+    gap: 40px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #2a2b2b;
+    justify-content: center;
+}
+
+.item {
+    height: 250px;
+    width: 450px;
+    background: #131313;
+    border-radius: 5px;
+    display: flex;
+    transition: transform 0.7s;
+    align-items: center;
+    justify-content: center;
+}
+
+.herd {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.herd::first-letter {
+    color: #00d9ff;
+}
+
+.herd:hover {
+    color: #00d9ff;
+}
+.from{
+    width: 100%;
+    height: 2px;
+    background: #424242;
+    margin-top: 12%;
+    display: none;
+}
+
+@media (max-width: 880px) {
+    .saman {
+        padding: 0px 20px;
+    }
+
+    .hero-items {
+        padding: 0px 20px;
+    }
+
+}
+
+@media (max-width : 660px) {
+    .img-item {
+        display: none;
+    }
+
+    .full {
+        display: none;
+    }
+
+    .k-container {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .text-1 {
+        text-align: center;
+    }
+
+    .tops {
+        display: flex;
+        justify-content: center;
+    }
+
+    .saman {
+        display: flex;
+        justify-content: center;
+    }
+    .hero-items{
+        gap: 20px;
+         display: flex;
+         flex-wrap: wrap;
+         background: #191919;
+         align-items: center;
+         justify-content: center;
+         margin-top: 30px;
+    }
+    .item{
+        height: 50px;
+        width: 100%;
+        background: #2a2b2b;
+    }
+    .herd{
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .from{
+        display: block;
+    }
+}
