@@ -150,6 +150,210 @@ ion-icon:hover {
     display: none;
 }
 
+.home{
+    gap: 8px;
+    height: 43px;
+    width: 100px;
+    border: solid 1px #00d9ff;
+    border-radius: 6px;
+    display: flex;
+    color: #00d9ff;
+    margin: 30px;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+}
+.btn-2{
+     font-size: 18px;
+     color: #00d9ff;
+    text-decoration: none;
+}
+
+.home:hover{
+    border: solid 1px #000dff;
+}
+
+.btn-3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-3::first-letter{
+    color: #00d9ff;
+}
+
+.round{
+    gap: 20px;
+    height: 600px;
+     width: 100%;
+     display: flex;
+     margin-top: 40px;
+     align-items: center;
+     justify-content: center;
+    background: #2c2c2c;
+}
+.fox{
+    height: 530px;
+    width: 390px;
+    padding: 13px 0px;
+     background: #161616;
+     border-radius: 5px;
+}
+.j{
+    color: #fff;
+    font-size: 23px;
+      animation:  wiggle 1s ease-in-out infinite;
+}
+
+.k{
+    color: #fff;
+    font-size: 23px;
+}
+
+
+ @keyframes wiggle {
+      0% {
+        transform: rotate(20deg);
+      }
+    }
+
+.free{
+    gap: 15px;
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+.text-4{
+    color: #00d9ff;
+     font-size: 17px;
+     padding: 20px;
+     font-weight: 600;
+}
+
+.por{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.top{
+    gap: 13px;
+    display: flex;
+    margin-left: 10px;
+}
+.apps{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    border: solid 2px #fff;
+    animation: pound 2s infinite;
+}
+.l{
+    font-size: 23px;
+    color: #00d9ff;
+    margin-top: 5px;
+}
+.fromsa{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.modem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lab-inp{
+    height: 600px;
+    max-width: 950px;
+    padding: 0px 20px;
+}
+
+.text-5{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 20PX;
+}
+.text-6{
+    color: #ececec;
+    font-size: 18px;
+    margin-top: 20PX;
+    line-height: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.contact-form {
+    padding:  25px 0px ;
+    border-radius: 8px;
+    width: 100%;
+}
+.contact-form h2 {
+    font-size: 24px;
+    color: #fff;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 16px;
+    outline: none;
+    color: #fff;
+    resize: none;
+    background: none;
+    border-radius: 5px;
+}
+.contact-form button {
+    width: 250px;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    font-weight: 700;
+    gap: 10px;
+    display: flex;
+    align-items: end;
+    background: none;
+    background: #00d9ff;
+    border: solid 1px #00d9ff;
+    justify-content: center;
+}
+.contact-form button:hover {
+    color: #c2c2c2;
+    border: solid 1px #505050;
+}
+.d{
+    font-size: 25px;
+}
+.contact-form input:hover{
+     border: solid 1px #00d9ff;
+}
+.contact-form textarea:hover{
+    border: solid 1px #00d9ff;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 880px) {
     .saman {
         padding: 0px 20px;
@@ -158,10 +362,67 @@ ion-icon:hover {
     .hero-items {
         padding: 0px 20px;
     }
+    .modem{
+        height: 100vh;
+        padding: 0px 10px;
+    }
+    .round{
+        height: 800px;
+        margin-top: 10rem;
+        display: flex;
+
+        align-items: baseline;
+        justify-content: center;
+    }
+
 
 }
 
 @media (max-width : 660px) {
+    .round{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background: none;
+        padding: 20px 0px;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .modem{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        background: none;
+    }
+    .fox{
+        width: 100%;
+    }
+     .text-4{
+        font-size: 16px;
+     }
+     .por{
+         font-size: 14px;
+     }
+      .apps{
+         height: 40px;
+         width: 40px;
+      }
+      .text-5{
+        font-size: 22px;
+      }
+
+      .text-6{
+        font-size: 17px;
+      }
+      .text{
+         font-size: 32px;
+      }
+   
+   
+   
+   
+   
     .img-item {
         display: none;
     }
