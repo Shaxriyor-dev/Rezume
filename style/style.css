@@ -447,7 +447,7 @@ ion-icon:hover {
   }
   .container-4{
      width: 100%;
-     height: 700px;
+     height: 75rem;
      margin-top: 30px;
      background: #2c2c2c;
   }
@@ -503,18 +503,192 @@ ion-icon:hover {
     padding: 3% 40px;
   }
   .chiziq{
-    padding: 0px 40px;
+    padding: 20px 40px;
   }
   .chiz{
     height: 2px;
     background: #818181;
   }
 
+.btn-20{
+    height: 50px;
+    width: 250px;
+    background: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    margin: 18px;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px #fff;
+}
+
+.container-11{
+    height: 470px;
+    margin: 17px;
+    border-radius: 10px;
+    max-width: 65rem;
+    position: absolute;
+    left: 22rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border: solid 2px #fff;
+}
 
 
 
 
+.container-10{
+    display: flex;
+    gap: 3rem;
+   margin: 25px;
+}
 
+.nav-bar{
+    height: 70px;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 64rem;
+    align-items: center;
+    background: #131313;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: center;
+}
+.gil{
+    text-align: center;
+}
+
+.aaa{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.kio{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.from-8{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.aa{
+    height: 10px;
+    width: 10px;
+    margin : 10px -3px;
+    background: #02697c;
+    border-radius: 50%;
+}
+.ddd{
+    height: 80px;
+    width: 5px;
+    border-radius: 5px;
+    background: #02697c;
+}
+
+.text-31{
+    font-size: 20px;
+    color: #e7e7e7;
+    font-weight: 500;
+    padding: 5px;
+}
+.text-23{
+    font-size: 16px;
+    color: #818181;
+    gap: 10px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.dooor{
+    gap: 30px;
+    display: flex;
+    padding: 5px 50px;
+}
+.from-8{
+    padding: 10px;
+}
+.lopp{
+    padding: 15px 0px;
+}
+.ligo{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+.solid-1{
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.jui{
+    margin: 10px;
+}
+.oo{
+    width: 64rem;
+}
+
+
+.container-11:first-child {
+        opacity: 1; 
+}
+
+.chizis{
+    margin-top: 17rem;
+    padding: 0px 40px;
+}
+.dic{
+    padding: 20px 50px;
+}
+.text-24{
+    color: #FFF;
+    font-size: 16px;
+    margin: 5px;
+}
+.wwww{
+    height: 5px;
+    width: 200px;
+    border-radius: 5px;
+    background: #00d9ff;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.some{
+    color: #919191;
+    font-size: 30px;
+    font-weight: 700;
+    gap: 10px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.skiler{
+    display: flex;
+    gap: 5rem;
+    padding: 30px;
+}
+.loq-1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+}
+.text-45{
+    font-size: 17px;
+    color: #c0bfbf;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dir{
+    padding: 20px 50px;
+}
 
 
 
@@ -533,6 +707,7 @@ ion-icon:hover {
 
 
 @media (max-width: 880px) {
+     
     .saman {
         padding: 0px 20px;
     }
@@ -552,12 +727,22 @@ ion-icon:hover {
         align-items: baseline;
         justify-content: center;
     }
-    .container-3{
-        background: none;
-    }
+     .container-10{
+        display: none;
+        height: 100px;
+     }
+     .container-11{
+        display: none;
+     }
 
     .item a {
         text-decoration: none;
+      }
+      .chizis{
+        display: none;
+      }
+      .container-4{
+        height: 0rem;
       }
     
     
@@ -580,10 +765,23 @@ ion-icon:hover {
       .button-1{
          padding: 25px 10px;
       }
+      
 
 }
 
 @media (max-width : 660px) {
+    .box-4{
+        display:none;
+    }
+    .container-10{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-11{
+        
+    }
     .round{
         width: 100%;
         display: flex;
@@ -711,6 +909,12 @@ ion-icon:hover {
     .text-8{
         font-size: 19px;
     }
+    .text-10{
+        font-size: 18px;
+    }
+    .like-7{
+        font-size: 16px;
+    }
     .tuss{
         display: flex;
         align-items: center;
@@ -721,5 +925,9 @@ ion-icon:hover {
     }
     .aka{
         font-size: 14px;
+    }
+    .lukis{
+        height: 230px;
+        width: 230px;
     }
 }
